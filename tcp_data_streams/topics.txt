@@ -1,0 +1,7 @@
+1. Considerations about the TCP protocol
+2. TCP handshake 
+3. TCP session in Golang (Dialing, listening, accepts)
+4. Be prepare for managing incoming data 
+   or properly closing connections 
+
+   
