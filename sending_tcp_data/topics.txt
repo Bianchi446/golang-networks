@@ -1,0 +1,6 @@
+1. Most common methods of reading data from network connections 
+2. Creation of a simple messaging protocol 
+3. network possibilities of net.Conn interface 
+4. Reading data from a network connection is not different from reading
+    data from an object file. 
+5
