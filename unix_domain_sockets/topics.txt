@@ -1,0 +1,24 @@
+1. Not al network communication occurs between separated nodes
+    it may occur between the applications and services hosted on a nodes
+
+2. Unix domain socket: Communication method that uses the filesystem
+    to determine a packets destination address.
+
+3. UDS allows for services running on the same node to exchange
+    data with one another 
+
+
+4. Each Unix domain socket has an associated file on the system
+    which corresponds to the a network socket IP addrs and port N.
+
+
+5. It is possible to leverage file permissions to control
+    writings and readings on the socket 
+
+6. Unix sockets may not be suitable if you require maximum 
+    portability of your applciation. 
+
+7. Three types of UDS: 
+    a. Streaming sockets
+    b. Datagram sockets
+    c. sequence packet sockets 
