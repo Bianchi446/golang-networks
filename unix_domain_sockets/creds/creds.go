@@ -9,8 +9,7 @@ import (
 	"os/signal"
 	"os/user"
 	"path/filepath"
-
-	"github.com/Bianchi446/golang-networks/unix_domain_sockets/creds/auth"
+	
 )
 
 // init initializes the command-line flags and usage information
