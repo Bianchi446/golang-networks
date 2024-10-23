@@ -1,0 +1,4 @@
+1. Comparing UDP to TCP
+2. How to send and receive UDP packets in Go
+3. how to determine the optimal packet size 
+
