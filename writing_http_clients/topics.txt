@@ -1,0 +1,12 @@
+1. Introduction to the Go HTTP client
+
+2. Go HTTP client to request resources from web servers
+
+3. Implementations that facilitate the 
+    request-response communication between an 
+    HTTP client and server 
+
+4. From request to rendered page 
+    A Web application is composed of various resources
+    a single request is used to gather one of those resources
+
