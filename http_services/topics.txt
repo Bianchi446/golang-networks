@@ -1,0 +1,33 @@
+1. Construction of a golang server that can process client requests.
+
+2. An HTTP server relies on several interacting components:
+    handlers + middleware + multiplexer = Web service
+
+3. The multiplexer receives the client request and determines the 
+    destination for the request, then passes it along to the object
+    capable of handling it (handler). 
+
+4. middleware: changes the handler behavior to perform auxiliary tasks
+    (logging, authentication or access control)
+
+
+5. Middleware comprises reusable functions 
+    that accept an http.Handler and return 
+    a http.Handler
+
+6. Warning: Never let clients dictate the duration
+    of a request-response life cycle; malicious
+    clients could exaust the server resources.
+
+7. Solution (6) : Manage time-outs in middleware
+    or individual handlers
+
+8. Exercise - Create a middleware that permits 
+    requests for only an allowed list of resources
+
+9. multiplexer: General handler that routes a request to a specific handler
+
+10. Note: If handlers doesn't close the request body
+        they may cause increase overhead and memory leaks
+
+    
