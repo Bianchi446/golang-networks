@@ -1,0 +1,17 @@
+1. Although one can build a capable web server with golang
+    adding features such as logging, metrics, encryption,
+    authentication, access controls can be daunting. 
+
+2. It is more convinient to use an existing web server
+    like caddy or nginx. 
+
+3. How to focus on writing web services while relying on Caddy 
+    to serve the application. 
+
+4. Set up and running Caddy and its real-time configuration API.
+
+5. How to extend Caddy functionality by using custom modules. 
+
+6. Caddy has inherent support for the ACME protocol 
+
+
